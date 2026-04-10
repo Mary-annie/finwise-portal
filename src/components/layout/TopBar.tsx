@@ -10,7 +10,6 @@ interface TopBarProps {
 
 export default function TopBar({ title, subtitle, actions }: TopBarProps) {
   const { theme, toggleTheme, setSidebarOpen } = useTheme();
-
   return (
     <div
       className="sticky top-0 z-30 flex items-center gap-4 px-6 lg:px-8"

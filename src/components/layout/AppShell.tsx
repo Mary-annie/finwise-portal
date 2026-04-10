@@ -9,7 +9,6 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen" style={{ background: "var(--bg-base)" }}>
       <Sidebar />
-      {/* Spacer that mirrors sidebar width on lg+ */}
       <main
         className="flex-1 min-h-screen"
         style={{
